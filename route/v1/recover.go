@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/IceWhaleTech/CasaOS-Common/utils/logger"
-	"github.com/IceWhaleTech/CasaOS-LocalStorage/drivers/dropbox"
-	"github.com/IceWhaleTech/CasaOS-LocalStorage/drivers/google_drive"
-	"github.com/IceWhaleTech/CasaOS-LocalStorage/service"
+	"github.com/Vioneta/VionetaOS-Common/utils/logger"
+	"github.com/Vioneta/VionetaOS-LocalStorage/drivers/dropbox"
+	"github.com/Vioneta/VionetaOS-LocalStorage/drivers/google_drive"
+	"github.com/Vioneta/VionetaOS-LocalStorage/service"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )

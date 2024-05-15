@@ -3,9 +3,9 @@ package service
 import (
 	"os"
 
-	"github.com/IceWhaleTech/CasaOS-Common/utils/logger"
-	"github.com/IceWhaleTech/CasaOS-LocalStorage/pkg/config"
-	command2 "github.com/IceWhaleTech/CasaOS-LocalStorage/pkg/utils/command"
+	"github.com/Vioneta/VionetaOS-Common/utils/logger"
+	"github.com/Vioneta/VionetaOS-LocalStorage/pkg/config"
+	command2 "github.com/Vioneta/VionetaOS-LocalStorage/pkg/utils/command"
 	"github.com/shirou/gopsutil/host"
 	"go.uber.org/zap"
 )

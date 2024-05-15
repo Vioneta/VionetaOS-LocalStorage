@@ -1,9 +1,9 @@
 package v1
 
 import (
-	"github.com/IceWhaleTech/CasaOS-Common/model"
-	"github.com/IceWhaleTech/CasaOS-Common/utils/common_err"
-	"github.com/IceWhaleTech/CasaOS-LocalStorage/internal/op"
+	"github.com/Vioneta/VionetaOS-Common/model"
+	"github.com/Vioneta/VionetaOS-Common/utils/common_err"
+	"github.com/Vioneta/VionetaOS-LocalStorage/internal/op"
 	"github.com/gin-gonic/gin"
 )
 

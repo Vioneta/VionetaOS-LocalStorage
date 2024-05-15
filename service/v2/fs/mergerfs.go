@@ -3,7 +3,7 @@ package fs
 import (
 	"strings"
 
-	"github.com/IceWhaleTech/CasaOS-LocalStorage/codegen"
+	"github.com/Vioneta/VionetaOS-LocalStorage/codegen"
 )
 
 const (

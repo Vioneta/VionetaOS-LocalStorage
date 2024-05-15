@@ -1,9 +1,9 @@
 package v2
 
 import (
-	"github.com/IceWhaleTech/CasaOS-Common/utils/logger"
-	"github.com/IceWhaleTech/CasaOS-LocalStorage/codegen"
-	"github.com/IceWhaleTech/CasaOS-LocalStorage/pkg/fstab"
+	"github.com/Vioneta/VionetaOS-Common/utils/logger"
+	"github.com/Vioneta/VionetaOS-LocalStorage/codegen"
+	"github.com/Vioneta/VionetaOS-LocalStorage/pkg/fstab"
 	"go.uber.org/zap"
 )
 

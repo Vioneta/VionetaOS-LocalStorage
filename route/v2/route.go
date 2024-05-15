@@ -1,7 +1,7 @@
 package v2
 
 import (
-	"github.com/IceWhaleTech/CasaOS-LocalStorage/codegen"
+	"github.com/Vioneta/VionetaOS-LocalStorage/codegen"
 )
 
 type LocalStorage struct{}

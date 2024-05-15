@@ -15,15 +15,15 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/IceWhaleTech/CasaOS-Common/model"
-	"github.com/IceWhaleTech/CasaOS-Common/utils/common_err"
-	"github.com/IceWhaleTech/CasaOS-Common/utils/logger"
+	"github.com/Vioneta/VionetaOS-Common/model"
+	"github.com/Vioneta/VionetaOS-Common/utils/common_err"
+	"github.com/Vioneta/VionetaOS-Common/utils/logger"
 	"go.uber.org/zap"
 
-	model1 "github.com/IceWhaleTech/CasaOS-LocalStorage/model"
-	model2 "github.com/IceWhaleTech/CasaOS-LocalStorage/service/model"
+	model1 "github.com/Vioneta/VionetaOS-LocalStorage/model"
+	model2 "github.com/Vioneta/VionetaOS-LocalStorage/service/model"
 
-	"github.com/IceWhaleTech/CasaOS-LocalStorage/service"
+	"github.com/Vioneta/VionetaOS-LocalStorage/service"
 	"github.com/gin-gonic/gin"
 )
 

@@ -1,10 +1,10 @@
-module github.com/IceWhaleTech/CasaOS-LocalStorage
+module github.com/Vioneta/VionetaOS-LocalStorage
 
 go 1.20
 
 require (
 	bazil.org/fuse v0.0.0-20230120002735-62a210ff1fd5
-	github.com/IceWhaleTech/CasaOS-Common v0.4.8-alpha3
+	github.com/Vioneta/VionetaOS-Common v0.4.8-alpha3
 	github.com/Xhofe/go-cache v0.0.0-20220723083548-714439c8af9a
 	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf
 	github.com/deckarep/golang-set/v2 v2.3.0

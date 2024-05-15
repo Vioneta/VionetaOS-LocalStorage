@@ -3,8 +3,8 @@ package v2
 import (
 	"testing"
 
-	"github.com/IceWhaleTech/CasaOS-LocalStorage/pkg/sqlite"
-	model2 "github.com/IceWhaleTech/CasaOS-LocalStorage/service/model"
+	"github.com/Vioneta/VionetaOS-LocalStorage/pkg/sqlite"
+	model2 "github.com/Vioneta/VionetaOS-LocalStorage/service/model"
 	"gorm.io/gorm"
 	"gotest.tools/v3/assert"
 )

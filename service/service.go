@@ -1,11 +1,11 @@
 package service
 
 import (
-	"github.com/IceWhaleTech/CasaOS-Common/external"
-	"github.com/IceWhaleTech/CasaOS-LocalStorage/codegen/message_bus"
-	"github.com/IceWhaleTech/CasaOS-LocalStorage/pkg/config"
-	v2 "github.com/IceWhaleTech/CasaOS-LocalStorage/service/v2"
-	"github.com/IceWhaleTech/CasaOS-LocalStorage/service/v2/wrapper"
+	"github.com/Vioneta/VionetaOS-Common/external"
+	"github.com/Vioneta/VionetaOS-LocalStorage/codegen/message_bus"
+	"github.com/Vioneta/VionetaOS-LocalStorage/pkg/config"
+	v2 "github.com/Vioneta/VionetaOS-LocalStorage/service/v2"
+	"github.com/Vioneta/VionetaOS-LocalStorage/service/v2/wrapper"
 	"github.com/patrickmn/go-cache"
 	"gorm.io/gorm"
 )
