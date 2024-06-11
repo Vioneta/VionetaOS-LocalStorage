@@ -1,5 +1,5 @@
 package config
 
 const (
-	LocalStorageConfigFilePath = "/etc/casaos/local-storage.conf"
+	LocalStorageConfigFilePath = "/etc/vionetaos/local-storage.conf"
 )

@@ -1,0 +1,14 @@
+[Unit]
+After=vionetaos-gateway.service
+After=vionetaos-message-bus.service
+Description=VionetaOS Local Storage Service
+
+[Service]
+ExecStartPre=/usr/bin/vionetaos-local-storage -v
+ExecStart=/usr/bin/vionetaos-local-storage -c /etc/vionetaos/local-storage.conf
+PIDFile=/var/run/vionetaos/local-storage.pid
+Restart=always
+Type=notify
+
+[Install]
+WantedBy=multi-user.target

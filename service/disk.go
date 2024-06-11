@@ -68,9 +68,9 @@ type diskService struct {
 }
 
 const (
-	PersistentTypeNone   = "none"
-	PersistentTypeFStab  = "fstab"
-	PersistentTypeCasaOS = "casaos"
+	PersistentTypeNone      = "none"
+	PersistentTypeFStab     = "fstab"
+	PersistentTypeVionetaOS = "vionetaos"
 )
 
 var (
@@ -542,7 +542,7 @@ func (d *diskService) GetPersistentTypeByUUID(uuid string) string {
 	if result := d.db.Where(&model2.Volume{UUID: uuid}).Limit(1).Find(&m); result.Error != nil {
 		logger.Error("error when finding the volume by uuid in database", zap.Error(result.Error), zap.String("uuid", uuid))
 	} else if result.RowsAffected > 0 {
-		return PersistentTypeCasaOS
+		return PersistentTypeVionetaOS
 	}
 
 	// check if it is in fstab
@@ -692,7 +692,7 @@ func (d *diskService) InitCheck() {
 					Name:       "local-storage:disk:added",
 					Properties: properties,
 				}
-				// add UI properties to applicable events so that CasaOS UI can render it
+				// add UI properties to applicable events so that VionetaOS UI can render it
 				event := common.EventAdapterWithUIProperties(&eventModel)
 
 				bk := false

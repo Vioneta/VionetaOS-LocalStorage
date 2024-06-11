@@ -8,7 +8,7 @@ permissions:
   contents: write
 jobs:
   call-workflow-passing-data:
-    uses: IceWhaleTech/github/.github/workflows/go_release.yml@main
+    uses: Vioneta/github/.github/workflows/go_release.yml@main
     with:
       project-name: VionetaOS-LocalStorage
       file-name: vionetaos-local-storage

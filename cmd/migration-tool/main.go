@@ -12,13 +12,13 @@ import (
 )
 
 const (
-	localStorageConfigDirPath  = "/etc/casaos"
-	localStorageConfigFilePath = "/etc/casaos/local-storage.conf"
-	localStorageName           = "casaos-local-storage.service"
+	localStorageConfigDirPath  = "/etc/vionetaos"
+	localStorageConfigFilePath = "/etc/vionetaos/local-storage.conf"
+	localStorageName           = "vionetaos-local-storage.service"
 	localStorageNameShort      = "local-storage"
 )
 
-//go:embedded ../../build/sysroot/etc/casaos/local-storage.conf.sample
+//go:embedded ../../build/sysroot/etc/vionetaos/local-storage.conf.sample
 // var _localStorageConfigFileSample string
 
 var (

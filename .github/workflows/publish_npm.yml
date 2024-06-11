@@ -11,7 +11,6 @@ permissions:
 
 jobs:
   call-workflow-passing-data:
-    uses: IceWhaleTech/github/.github/workflows/npm_release.yml@main
+    uses: Vioneta/github/.github/workflows/npm_release.yml@main
     secrets:
-      NPM_TOKEN_PRIVATE: ${{ secrets.NPM_TOKEN_PRIVATE }}
-
+      NPM_TOKEN_PRIVATE: ${{ secrets.NPM_TOKEN}}
