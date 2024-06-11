@@ -13,4 +13,4 @@ jobs:
   call-workflow-passing-data:
     uses: Vioneta/github/.github/workflows/npm_release.yml@main
     secrets:
-      NPM_TOKEN_PRIVATE: ${{ secrets.NPM_TOKEN}}
+      NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
