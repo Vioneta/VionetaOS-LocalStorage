@@ -1,6 +1,6 @@
 # Maintainer: Ns2Kracy <2220496937@qq.com>
 pkgname=vionetaos-local-storage
-pkgver=0.4.0
+pkgver=0.1.0
 pkgrel=1
 pkgdesc="Local Storage service provides local storage and disk management functionalities to VionetaOS."
 arch=('x86_64' 'aarch64' 'armv7h')
